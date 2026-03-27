@@ -1,0 +1,34 @@
+{
+  "team_name": "Generic",
+  "team_id": "generic-001",
+  "testrail": {
+    "project_id_map": {
+      "*": 212
+    },
+    "default_project_id": 212,
+    "default_section_name": "Functional Tests"
+  },
+  "jira": {
+    "allowed_types": [
+      "Story",
+      "Feature"
+    ],
+    "project": {
+      "description": "Default",
+      "jira_project_code": "",
+      "confluence_space": "",
+      "scrum_teams": {}
+    }
+  },
+  "context": {
+    "max_dependency_depth": 1,
+    "default_scope": "Auto",
+    "include_confluence": true
+  },
+  "preferences": {
+    "auto_open_excel": true,
+    "default_export_mode": "both",
+    "telemetry_opt_in": false
+  }
+}
+

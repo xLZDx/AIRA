@@ -1,0 +1,7 @@
+{
+  "name": "aira-example",
+  "version": "1.0.0",
+  "description": "Skeleton example plugin demonstrating the AIRA v2 plugin pattern.",
+  "enabled": false,
+  "load_order": 900
+}

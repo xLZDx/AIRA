@@ -1,0 +1,30 @@
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# AIRA runtime (local, per-user/per-workspace)
+.aira/sessions/
+.aira/memory/
+.aira/telemetry.jsonl
+.aira/tests/results/
+.aira/tests/startup.state.json
+
+# Context cache + generated artifacts + scratch space
+context/local/
+artifacts/
+outputs/
+scratch/
+
+
+# Archives (local snapshots)
+archive/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+.vscode/
+

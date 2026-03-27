@@ -1,0 +1,22 @@
+# Design Agent Persona (Override Example)
+
+This is an **example override**. It is ignored by default because the filename ends in `.example`.
+
+## Custom Team Conventions (Example)
+
+1. **Naming**: Prefix with feature area tag, then action:
+   - `TC### - [DASHBOARD] Verify ...`
+2. **Priority mapping** (example):
+   - UI-only changes → Medium
+   - Calculation/financial correctness → High
+   - Cosmetic-only → Low
+3. **Duplication threshold**:
+   - If an existing case covers 70%+ of a scenario → ENHANCE (stricter than core 80% rule)
+
+## Mandatory Output
+
+Keep the standard three-category JSON output:
+- `new_cases[]`
+- `enhance_cases[]`
+- `prereq_cases[]`
+

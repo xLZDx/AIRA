@@ -1,0 +1,38 @@
+{
+  "new_cases": {
+    "sheet_name": "New Cases",
+    "columns": [
+      { "header": "Title", "path": "title" },
+      { "header": "Priority", "path": "priority" },
+      { "header": "Type", "path": "type" },
+      { "header": "Preconditions", "path": "preconditions" },
+      { "header": "References", "path": "references" },
+      { "header": "Prereq Case IDs", "path": "prereq_case_ids" },
+      { "header": "Steps", "path": "steps" },
+
+      { "header": "Automation Candidate", "path": "automation_candidate" },
+      { "header": "Tags", "path": "tags" }
+    ]
+  },
+  "enhance_cases": {
+    "sheet_name": "Enhancements",
+    "columns": [
+      { "header": "Existing Case ID", "path": "existing_case_id" },
+      { "header": "Existing Title", "path": "existing_title" },
+      { "header": "Rationale", "path": "rationale" },
+      { "header": "New Steps", "path": "new_steps" },
+      { "header": "Updated References", "path": "updated_references" },
+
+      { "header": "Tags", "path": "tags" }
+    ]
+  },
+  "prereq_cases": {
+    "sheet_name": "Prerequisites",
+    "columns": [
+      { "header": "Case ID", "path": "case_id" },
+      { "header": "Title", "path": "title" },
+      { "header": "Usage", "path": "usage" }
+    ]
+  }
+}
+

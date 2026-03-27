@@ -1,0 +1,15 @@
+# Team Rules (Override Example)
+
+This is an **example rules file** for documenting team conventions. It is ignored by default because it ends in `.example`.
+
+## Example Rules
+
+- **Requirement sources**: Only Jira Stories and Features are valid sources.
+- **Do not analyze**: Bugs and Epics (bugs go to “Concerns / Known Bugs” only).
+- **Anti-hallucination**: Never invent API/DB details; mark as pending.
+- **Excel exports**: Always include the Jira key in the output folder name under `outputs/<Project>/runs/`.
+
+## How to enable
+
+Copy to `overrides/rules/team_rules.md` (remove `.example`) if you want AIRA to treat it as an active rule artifact.
+

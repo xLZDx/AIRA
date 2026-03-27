@@ -1,0 +1,16 @@
+{
+  "name": "aira-prototyping",
+  "version": "1.1.0",
+  "description": "AIRA plugin for discoverable prototype workflows: initialize or fetch original app sources, preserve baseline styles, build versioned prototypes, and publish immutable artifacts.",
+  "enabled": true,
+  "load_order": 100,
+  "entry_script": "plugins/aira-prototyping/scripts/prototype.ps1",
+  "capabilities": [
+    "init-project",
+    "fetch-source",
+    "record-flow",
+    "build-flow",
+    "publish-versioned-prototype",
+    "preserve-original-styles"
+  ]
+}

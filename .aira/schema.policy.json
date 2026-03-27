@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "required": [
+    "testrail",
+    "validation"
+  ],
+  "types": {
+    "organization": "string",
+    "version": "string",
+    "testrail": "object",
+    "testrail.restrictions": "object",
+    "testrail.restrictions.forbidden_priorities": "array[string]",
+    "testrail.restrictions.max_cases_per_batch": "number",
+    "testrail.restrictions.require_jira_reference": "boolean",
+    "testrail.defaults": "object",
+    "testrail.defaults.priority": "string",
+    "testrail.defaults.type": "string",
+    "testrail.project_id_map": "object",
+    "testrail.default_section_name": "string",
+    "context": "object",
+    "context.max_dependency_depth": "number",
+    "context.include_confluence": "boolean",
+    "context.confluence_spaces": "array[string]",
+    "preferences": "object",
+    "preferences.auto_open_excel": "boolean",
+    "preferences.default_export_mode": "string",
+    "preferences.telemetry_opt_in": "boolean",
+    "validation": "object",
+    "validation.enabled_checks": "array[string]",
+    "validation.auto_fail_on_errors": "boolean",
+    "validation.require_human_review": "boolean",
+    "locked_fields": "array[string]"
+  }
+}
+

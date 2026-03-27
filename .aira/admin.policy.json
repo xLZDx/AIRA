@@ -1,0 +1,32 @@
+{
+  "organization": "ProjectName",
+  "version": "2.0",
+  "testrail": {
+    "restrictions": {
+      "forbidden_priorities": [],
+      "max_cases_per_batch": 50,
+      "require_jira_reference": true
+    },
+    "defaults": {
+      "priority": "Medium",
+      "type": "Functional"
+    }
+  },
+  "validation": {
+    "auto_fail_on_errors": true,
+    "require_human_review": false,
+    "enabled_checks": [
+      "schema_compliance",
+      "forbidden_values",
+      "step_completeness",
+      "reference_integrity",
+      "duplicate_detection",
+      "content_safety"
+    ]
+  },
+  "locked_fields": [
+    "testrail.restrictions.forbidden_priorities",
+    "validation.auto_fail_on_errors"
+  ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "team_name": "TeamName",
+  "team_id": "teamname-001",
+  "jira": {
+    "project": {
+      "_comment": "TeamName project configuration with scrum team mappings",
+      "description": "TeamName Jira project for managing issues, sprints, and backlogs with defined scrum teams.",
+      "jira_project_code": "ACP",
+      "confluence_space": "SpaceName",
+      "scrum_teams": {
+        "Cyberpunks": "CYP",
+        "Mavericks": "MAV",
+        "Agile Avengers": "AAV",
+        "PLAT": "PLAT"
+      }
+    }
+  }
+}
