@@ -1,5 +1,22 @@
 # AIRA — AI Requirements & Test Case Assistant
 
+## Ownership
+
+Maintained by the AIRA project.
+
+Originally developed for internal QA automation use cases across regulated industries.
+
+This repository contains generic framework components and does not include any client-specific implementations.
+
+## Support & Disclaimer
+
+This project is provided "as is", without warranties or guarantees of any kind.
+
+It is intended as a reusable engineering accelerator and reference implementation, not as a substitute for enterprise-supported solutions.
+
+Production support, SLAs, and customizations may be provided separately under commercial agreement.
+
+
 > **Version 2.0** | Created and developed by the AIRA project for the AIRA project
 
 AIRA is an AI-powered Business Analyst and Quality Engineer assistant that transforms Jira requirements into structured, testable specifications and TestRail-ready test cases — while preventing duplication with existing test coverage.
