@@ -1,6 +1,6 @@
 # Contributing
 
-At this time, this repository is maintained internally by the AIRA project.
+At this time, this repository is maintained internally.
 
 External contributions are not currently accepted.
 

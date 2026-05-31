@@ -17,7 +17,7 @@ It is intended as a reusable engineering accelerator and reference implementatio
 Production support, SLAs, and customizations may be provided separately under commercial agreement.
 
 
-> **Version 2.0** | Created and developed by the AIRA project for the AIRA project
+> **Version 2.0**
 
 AIRA is an AI-powered Business Analyst and Quality Engineer assistant that transforms Jira requirements into structured, testable specifications and TestRail-ready test cases — while preventing duplication with existing test coverage.
 

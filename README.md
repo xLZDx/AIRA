@@ -58,7 +58,7 @@ AIRA provides:
 ## Quick start
 
 Clone repository:
-git clone https://github.com/xLZDx/Aira
+git clone https://github.com/xLZDx/AIRA
 
 Open workspace in VS Code:
 

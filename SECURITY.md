@@ -2,11 +2,7 @@
 
 If you discover a security vulnerability, please report it responsibly.
 
-Please contact:
-
-security advisories via GitHub
-
-or open a private security advisory via GitHub.
+Please open a private security advisory via GitHub.
 
 We aim to acknowledge reports within 3 business days.
 
